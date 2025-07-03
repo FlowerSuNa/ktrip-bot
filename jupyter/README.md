@@ -1,6 +1,4 @@
-# 한국 여행 어시스턴트
 
-- 사용자의 여행 목적과 취향에 맞춰 여행지를 추천하고, 맞춤형 일정을 생성하는 어시스턴트를 개발하고 있습니다.
 
 ## 활용 데이터 정보
 
@@ -10,4 +8,20 @@
 
 - Service URL : `http://apis.data.go.kr/B551011/KorService2`
 
+| Endpoint | Description | Notes |
+|---|---|---|
+| /ldongCode2 | 법정 지역 코드 조회 |
+| /lclsSystmCode2 | 분류체게 코드 조회 |
+| /areaBasedList2 | 지역별 관광지 검색 |
+| /searchKeyword2 | 관광지 키워드 검색 |
+| /searchFestival2 | 행사 정보 검색 |
+| /searchStay2 | 숙박 정보 검색 |
+| /detailCommon2 | 관광지 상세 정보 검색 |
+| /detailIntro2 | 관광지 메뉴, 주차, 오픈 시간 등 검색 |
+| /detailInfo2 | 관광지 기타 정보 검색 |
+| /detailImage2 | 관광지 이미지 검색 |
+
+
 ### `Naver Blog` API
+
+- [Naver Developers](https://developers.naver.com/docs/serviceapi/search/blog/blog.md#%EB%B8%94%EB%A1%9C%EA%B7%B8)
