@@ -896,6 +896,7 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "rank-bm25" },
     { name = "requests" },
+    { name = "tiktoken" },
 ]
 
 [package.metadata]
@@ -912,6 +913,7 @@ requires-dist = [
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "rank-bm25", specifier = ">=0.2.2" },
     { name = "requests", specifier = ">=2.32.4" },
+    { name = "tiktoken", specifier = ">=0.9.0" },
 ]
 
 [[package]]
